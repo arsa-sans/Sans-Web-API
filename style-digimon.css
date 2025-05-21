@@ -1,0 +1,60 @@
+body{
+  font-family: Tahoma;
+}
+.digimon-img{
+  width: 180px;
+}
+.digimon-img:hover{
+  cursor: pointer;
+  box-shadow: 3px 4px 20px 15px black;
+}
+.list-digimon{
+  list-style: none;
+  color: #d1c9bc;
+  border: 3px solid black;
+  padding: 10px 10px ;
+  width: 180px;
+  height: 275px;
+  display: inline-block;
+  margin: 0rem 0.5rem 1rem 1.9rem;
+}
+.list-digimon{
+  background-color: #443c70;
+}
+.logo-digimon{
+  text-align: center;
+}
+header p{
+  text-align: center;
+}
+
+.filter-container {
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #443c70;
+  border-radius: 10px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.filter-container label {
+  color: #d1c9bc;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#level-filter {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #d1c9bc;
+  border: 2px solid black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#level-filter:focus {
+  outline: none;
+  box-shadow: 0 0 5px #fff;
+}
