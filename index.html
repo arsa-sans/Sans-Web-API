@@ -5,21 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Digimon</title>
   <link rel="icon" href="icon_digimon.jpg">
-  <link rel="stylesheet" href=style.css>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <p><img src="Digimon_logo.png" alt="tidak ada."></p>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img src="Digimon_logo.png" alt="Digimon Logo">
+      </div>
 
-    <div class="filter-container">
-      <label for="level-filter">Filter by Level:</label>
-      <select id="level-filter">
-        <option value="all">All Levels</option>
-      </select>
-    </div>
-  </header>
-  
-  <div id="content"></div>
+      <div class="filter-container">
+        <label for="level-filter">Filter by Level:</label>
+        <select id="level-filter">
+          <option value="all">All Levels</option>
+        </select>
+      </div>
+    </header>
+    
+    <main id="content"></main>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
